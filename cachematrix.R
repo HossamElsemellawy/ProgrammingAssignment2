@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Define All functions to be used for collecting the data in the matrix and read the inverse matrix
+## 
 
 ## Write a short comment describing this function
 
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## try to get cached inverse matrix if not avaliable, build it and cache it
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
